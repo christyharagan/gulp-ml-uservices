@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "declaration": true,
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "noLib": false,
+        "rootDir": ".",
+        "sourceMap": true,
+        "sourceRoot": ".",
+        "target": "es5",
+        "outDir": "./dist"
+    },
+    "filesGlob": [
+        "./lib/**/*.ts",
+        "./node_modules/*/*.d.ts",
+        "./typings/**/*.d.ts",
+        "./node_modules/rx/ts/rx.binding.d.ts",
+        "./gulp-ml-uservices.d.ts"
+    ],
+    "compileOnSave": true,
+    "files": [
+        "./lib/gulpDeploy.ts",
+        "./lib/gulpMLSpecGenerator.ts",
+        "./lib/index.ts",
+        "./node_modules/ml-admin/ml-admin.d.ts",
+        "./node_modules/ml-typescript-definitions/client.d.ts",
+        "./node_modules/ml-typescript-definitions/server.d.ts",
+        "./node_modules/ml-uservices/ml-uservices.d.ts",
+        "./node_modules/typescript-schema/typescript-schema.d.ts",
+        "./node_modules/uservices/uservices.d.ts",
+        "./typings/es6/es6.d.ts",
+        "./typings/node/node.d.ts",
+        "./typings/through2/through2.d.ts",
+        "./typings/tsd.d.ts",
+        "./typings/vinyl/vinyl.d.ts",
+        "./node_modules/rx/ts/rx.binding.d.ts",
+        "./gulp-ml-uservices.d.ts"
+    ]
+}

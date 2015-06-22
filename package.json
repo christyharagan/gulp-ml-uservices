@@ -1,0 +1,38 @@
+{
+  "name": "gulp-ml-uservices",
+  "version": "0.1.0",
+  "description": "Gulp tasks for ml-uservices",
+  "main": "dist/lib/index.js",
+  "repository": "christyharagan/gulp-ml-uservices",
+  "author": {
+    "name": "Christy Haragan",
+    "email": "christy.haragan.github@gmail.com",
+    "url": "https://github.com/christyharagan"
+  },
+  "typescript": {
+    "definition": "gulp-ml-uservices.d.ts"
+  },
+  "keywords": [
+    "gulp",
+    "marklogic",
+    "uservices",
+    "service",
+    "portable",
+    "asynchronous",
+    "observable",
+    "actor",
+    "micro"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ml-admin": "^0.1.0",
+    "ml-typescript-definitions": "^0.1.0",
+    "ml-uservices": "^0.1.0",
+    "rx": "^2.5.3",
+    "through2": "^2.0.0",
+    "typescript": "^1.5.0-beta",
+    "typescript-schema": "^0.2.0",
+    "uservices": "^0.2.0",
+    "vinyl": "^0.5.0"
+  }
+}
